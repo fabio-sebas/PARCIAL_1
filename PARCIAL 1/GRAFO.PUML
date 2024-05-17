@@ -1,0 +1,24 @@
+@startuml
+start
+
+:inicio;
+
+while (Paso 1) 
+  if (Paso 2) then (sí)
+    if (Paso 4) then (sí)
+      :paso 6; 
+:fin ;
+      stop
+    else (no)
+      :Paso 5;
+    endif
+  else (no)
+    :Paso 3;
+  endif
+endwhile (no)
+
+:fin ;
+stop
+@enduml
+
+
